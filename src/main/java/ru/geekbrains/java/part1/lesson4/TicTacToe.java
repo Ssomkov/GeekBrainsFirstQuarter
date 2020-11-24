@@ -1,4 +1,4 @@
-package ru.geekbrains.java.lesson4;
+package ru.geekbrains.java.part1.lesson4;
 
 import java.util.Scanner;
 import java.util.concurrent.ThreadLocalRandom;

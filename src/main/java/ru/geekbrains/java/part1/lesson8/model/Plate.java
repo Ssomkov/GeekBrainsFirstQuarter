@@ -1,4 +1,4 @@
-package ru.geekbrains.java.lesson8.model;
+package ru.geekbrains.java.part1.lesson8.model;
 
 public class Plate {
 

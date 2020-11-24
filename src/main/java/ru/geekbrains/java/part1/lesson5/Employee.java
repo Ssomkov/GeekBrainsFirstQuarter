@@ -1,4 +1,4 @@
-package ru.geekbrains.java.lesson5;
+package ru.geekbrains.java.part1.lesson5;
 /**
  * Class for storing employee data
  * @author Sergey Somkov

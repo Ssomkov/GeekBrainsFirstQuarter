@@ -1,6 +1,6 @@
-package ru.geekbrains.java.lesson8;
+package ru.geekbrains.java.part1.lesson8;
 
-import ru.geekbrains.java.lesson8.ui.MainWindow;
+import ru.geekbrains.java.part1.lesson8.ui.MainWindow;
 
 public class Solution {
 

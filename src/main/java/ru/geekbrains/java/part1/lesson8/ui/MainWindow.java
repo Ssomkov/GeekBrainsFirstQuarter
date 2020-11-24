@@ -1,12 +1,10 @@
-package ru.geekbrains.java.lesson8.ui;
+package ru.geekbrains.java.part1.lesson8.ui;
 
 import com.sun.java.swing.action.ExitAction;
-import ru.geekbrains.java.lesson8.model.Cat;
-import ru.geekbrains.java.lesson8.utils.Handler;
+import ru.geekbrains.java.part1.lesson8.model.Cat;
+import ru.geekbrains.java.part1.lesson8.utils.Handler;
 
 import javax.swing.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 
 public class MainWindow extends JFrame {
 

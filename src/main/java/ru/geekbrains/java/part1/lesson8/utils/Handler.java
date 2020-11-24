@@ -1,7 +1,7 @@
-package ru.geekbrains.java.lesson8.utils;
+package ru.geekbrains.java.part1.lesson8.utils;
 
-import ru.geekbrains.java.lesson8.model.Cat;
-import ru.geekbrains.java.lesson8.model.Plate;
+import ru.geekbrains.java.part1.lesson8.model.Cat;
+import ru.geekbrains.java.part1.lesson8.model.Plate;
 
 import java.util.ArrayList;
 import java.util.concurrent.ThreadLocalRandom;

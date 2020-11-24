@@ -1,4 +1,4 @@
-package ru.geekbrains.java.lesson2;
+package ru.geekbrains.java.part1.lesson2;
 
 public class Main {
 
