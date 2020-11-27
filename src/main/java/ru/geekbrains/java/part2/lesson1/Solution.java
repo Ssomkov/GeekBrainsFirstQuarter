@@ -1,10 +1,12 @@
-package ru.geekbrains.java.part2.lesson1.abstrct;
+package ru.geekbrains.java.part2.lesson1;
 
-import ru.geekbrains.java.part2.lesson1.abstrct.models.barriers.Track;
-import ru.geekbrains.java.part2.lesson1.abstrct.models.barriers.Wall;
-import ru.geekbrains.java.part2.lesson1.abstrct.models.runners.Cat;
-import ru.geekbrains.java.part2.lesson1.abstrct.models.runners.Man;
-import ru.geekbrains.java.part2.lesson1.abstrct.models.runners.Robot;
+import ru.geekbrains.java.part2.lesson1.abstrct.Barrier;
+import ru.geekbrains.java.part2.lesson1.abstrct.Movable;
+import ru.geekbrains.java.part2.lesson1.models.barriers.Track;
+import ru.geekbrains.java.part2.lesson1.models.barriers.Wall;
+import ru.geekbrains.java.part2.lesson1.models.runners.Cat;
+import ru.geekbrains.java.part2.lesson1.models.runners.Man;
+import ru.geekbrains.java.part2.lesson1.models.runners.Robot;
 
 import java.util.ArrayList;
 

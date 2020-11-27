@@ -1,4 +1,4 @@
-package ru.geekbrains.java.part2.lesson1.abstrct.models.barriers;
+package ru.geekbrains.java.part2.lesson1.models.barriers;
 
 import ru.geekbrains.java.part2.lesson1.abstrct.AbstractBarrier;
 import ru.geekbrains.java.part2.lesson1.abstrct.Barrier;

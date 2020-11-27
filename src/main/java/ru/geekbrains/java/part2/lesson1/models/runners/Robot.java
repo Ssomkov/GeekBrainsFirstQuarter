@@ -1,17 +1,17 @@
-package ru.geekbrains.java.part2.lesson1.abstrct.models.runners;
+package ru.geekbrains.java.part2.lesson1.models.runners;
 
 import ru.geekbrains.java.part2.lesson1.abstrct.Barrier;
 import ru.geekbrains.java.part2.lesson1.abstrct.Movable;
 
 import java.util.ArrayList;
 
-public class Cat implements Movable {
+public class Robot implements Movable {
 
     private String name;
     private int runLimit;
     private int jumpLimit;
 
-    public Cat(String name, int runLimit, int jumpLimit) {
+    public Robot(String name, int runLimit, int jumpLimit) {
         this.name = name;
         this.runLimit = runLimit;
         this.jumpLimit = jumpLimit;
