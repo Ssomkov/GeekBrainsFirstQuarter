@@ -1,17 +1,17 @@
-package ru.geekbrains.java.part2.models.runners;
+package ru.geekbrains.java.part2.lesson1.abstrct.models.runners;
 
-import ru.geekbrains.java.part2.abstrct.Barrier;
-import ru.geekbrains.java.part2.abstrct.Movable;
+import ru.geekbrains.java.part2.lesson1.abstrct.Barrier;
+import ru.geekbrains.java.part2.lesson1.abstrct.Movable;
 
 import java.util.ArrayList;
 
-public class Man implements Movable{
+public class Cat implements Movable {
 
     private String name;
     private int runLimit;
     private int jumpLimit;
 
-    public Man(String name, int runLimit, int jumpLimit) {
+    public Cat(String name, int runLimit, int jumpLimit) {
         this.name = name;
         this.runLimit = runLimit;
         this.jumpLimit = jumpLimit;

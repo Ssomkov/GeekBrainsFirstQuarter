@@ -1,8 +1,8 @@
-package ru.geekbrains.java.part2.models.barriers;
+package ru.geekbrains.java.part2.lesson1.abstrct.models.barriers;
 
-import ru.geekbrains.java.part2.abstrct.AbstractBarrier;
-import ru.geekbrains.java.part2.abstrct.Barrier;
-import ru.geekbrains.java.part2.abstrct.Movable;
+import ru.geekbrains.java.part2.lesson1.abstrct.AbstractBarrier;
+import ru.geekbrains.java.part2.lesson1.abstrct.Barrier;
+import ru.geekbrains.java.part2.lesson1.abstrct.Movable;
 
 public class Track extends AbstractBarrier implements Barrier {
 
