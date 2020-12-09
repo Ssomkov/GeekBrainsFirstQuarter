@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="380.0" prefWidth="660.0" snapToPixel="false" xmlns="http://javafx.com/javafx/11.0.1"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="ru.geekbrains.java.part2.lesson4.MainChatWindowController">
+    <children>
+        <TextArea fx:id="chatTextArea" layoutX="158.0" prefHeight="288.0" prefWidth="483.0"/>
+        <ListView fx:id="userList" layoutX="14.0" prefHeight="288.0" prefWidth="127.0"/>
+        <TextField fx:id="inputTextField" layoutX="14.0" layoutY="299.0" onAction="#addInputTextToChatTextArea"
+                   prefHeight="27.0" prefWidth="627.0"/>
+        <Button fx:id="sendButton" layoutX="585.0" layoutY="341.0" mnemonicParsing="false"
+                onAction="#addInputTextToChatTextArea"
+                prefHeight="27.0" prefWidth="56.0" text="Send"/>
+    </children>
+</AnchorPane>
