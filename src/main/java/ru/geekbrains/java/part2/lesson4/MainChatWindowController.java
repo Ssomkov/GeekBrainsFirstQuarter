@@ -19,16 +19,9 @@ public class MainChatWindowController {
     private Button sendButton;
 
     @FXML
-    public void sendButtonClick(ActionEvent actionEvent) {
-        addInputTextToChatTextArea();
-    }
-
-    @FXML
-    public void inputTextFieldPressEnter(ActionEvent actionEvent){
-        addInputTextToChatTextArea();
-    }
-
     private void addInputTextToChatTextArea() {
-        chatTextArea.appendText(inputTextField.getText().concat("\n"));
+        chatTextArea.appendText(inputTextField.getText());
+        chatTextArea.appendText(System.lineSeparator());
+        inputTextField.clear();
     }
 }
